@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import AddItem from './AddItem';
+import ColorBox from './ColorBox';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [newColor, setNewColor] = useState('');
+  const [hexValue, setHexValue] = useState('');
+  const [isDarkText, setIsDarkText] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <ColorBox  
+        newColor={newColor} 
+        hexValue={hexValue} 
+        isDarkText={isDarkText} />
+      <AddItem   
+        newColor={newColor} 
+        setNewColor={setNewColor} 
+        setHexValue={setHexValue} 
+        isDarkText={isDarkText}
+        setIsDarkText={setIsDarkText}/>
+
     </div>
   );
 }
