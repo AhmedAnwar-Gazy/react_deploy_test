@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AhmedAnwar-Gazy/react_deploy_test/static/css/main.34c8e845.css",
+    "main.js": "/AhmedAnwar-Gazy/react_deploy_test/static/js/main.5269c431.js",
+    "index.html": "/AhmedAnwar-Gazy/react_deploy_test/index.html",
+    "main.34c8e845.css.map": "/AhmedAnwar-Gazy/react_deploy_test/static/css/main.34c8e845.css.map",
+    "main.5269c431.js.map": "/AhmedAnwar-Gazy/react_deploy_test/static/js/main.5269c431.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c8e845.css",
+    "static/js/main.5269c431.js"
+  ]
+}
